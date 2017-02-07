@@ -374,7 +374,7 @@ module.exports = ""
 /***/ 754:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".fill-remaining-space {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 auto;\r\n          flex: 1 1 auto;\r\n}\r\n"
 
 /***/ }),
 
@@ -409,14 +409,14 @@ module.exports = "\r\n.anthony-image {\r\n  background-image: url('https://i.yti
 /***/ 759:
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <md-card>\n      <md-card-title>Our Vision</md-card-title>\n    <md-card-content>\n      Ciitizen-gamers providing the Rochester area an Adventure League experience to help children in need.\n    </md-card-content>\n  </md-card>\n  <md-card>\n      <md-card-title>What we are</md-card-title>\n    <md-card-content></md-card-content>\n  </md-card>\n</div>\n"
+module.exports = "<div>\n  <md-card>\n      <md-card-title>Our Vision</md-card-title>\n    <md-card-content>\n      Ciitizen-gamers providing the Rochester area an Adventure League experience to help children in need.\n    </md-card-content>\n  </md-card>\n  <md-card>\n    <md-card-title>Who are we aiming to help?</md-card-title>\n    <md-card-content>TBA</md-card-content>\n  </md-card>\n  <md-card>\n    <md-card-title>What we're going to have</md-card-title>\n    <md-card-content>\n      <md-list>\n        <md-list-item>Adventure League Play</md-list-item>\n        <md-list-item>Adventure League Custom Content</md-list-item>\n        <md-list-item>lofty goal #1</md-list-item>\n        <md-list-item>lofty goal #2</md-list-item>\n      </md-list>\n    </md-card-content>\n  </md-card>\n</div>\n"
 
 /***/ }),
 
 /***/ 760:
 /***/ (function(module, exports) {
 
-module.exports = "<md-tab-group>\n  <md-tab label=\"About\">\n    <rc-about></rc-about>\n  </md-tab>\n  <md-tab label=\"Staff\">\n    <rc-staff></rc-staff>\n  </md-tab>\n  <md-tab label=\"Events\">\n    <rc-events></rc-events>\n  </md-tab>\n  <md-tab label=\"Sponsors\">\n    <rc-sponsors></rc-sponsors>\n  </md-tab>\n</md-tab-group>\n"
+module.exports = "<md-toolbar color=\"primary\">\n  <span>R.A.G.E. Con</span>\n\n  <!-- This fills the remaining space of the current row -->\n  <span class=\"fill-remaining-space\"></span>\n  <span>Coming Winter/Spring 2018</span>\n</md-toolbar>\n\n<md-tab-group>\n  <md-tab label=\"About\">\n    <rc-about></rc-about>\n  </md-tab>\n  <md-tab label=\"Staff\">\n    <rc-staff></rc-staff>\n  </md-tab>\n  <md-tab label=\"Events\">\n    <rc-events></rc-events>\n  </md-tab>\n  <md-tab label=\"Sponsors\">\n    <rc-sponsors></rc-sponsors>\n  </md-tab>\n</md-tab-group>\n"
 
 /***/ }),
 
